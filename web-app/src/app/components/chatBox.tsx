@@ -1,5 +1,7 @@
 "use client";
 import React, { useState, useRef } from "react";
+import VapiProvider from "@vapi-ai/react-native";
+import useVapi from "@vapi-ai/react-native";
 
 interface Message {
   role: "User" | "Assistant";
